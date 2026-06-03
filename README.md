@@ -1,6 +1,5 @@
 # 📊 Automated Report Generation System
 
-[![CI](https://github.com/YOUR_USERNAME/automated-report-system/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/automated-report-system/actions)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
