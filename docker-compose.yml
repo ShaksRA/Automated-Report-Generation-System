@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+  report-scheduler:
+    build: .
+    container_name: weekly-report-system
+    command: python main.py --schedule
+    volumes:
+      - ./data/raw:/app/data/raw:ro          # mount raw data (read-only)
+      - ./reports/output:/app/reports/output  # persist generated reports
+      - ./logs:/app/logs                      # persist logs
+    environment:
+      - SCHEDULE_DAY=${SCHEDULE_DAY:-monday}
+      - SCHEDULE_TIME=${SCHEDULE_TIME:-08:00}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - EMAIL_ENABLED=${EMAIL_ENABLED:-false}
+      - SMTP_HOST=${SMTP_HOST:-smtp.gmail.com}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASSWORD=${SMTP_PASSWORD:-}
+      - EMAIL_TO=${EMAIL_TO:-}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import src.config"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+  report-oneshot:
+    build: .
+    container_name: weekly-report-oneshot
+    command: python main.py
+    volumes:
+      - ./data/raw:/app/data/raw:ro
+      - ./reports/output:/app/reports/output
+      - ./logs:/app/logs
+    profiles:
+      - oneshot   # only run with: docker compose --profile oneshot up
