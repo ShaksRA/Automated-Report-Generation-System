@@ -1,0 +1,26 @@
+customer_id,name,email,region,segment,join_date,total_orders,lifetime_value
+CUST-101,John Doe,john.doe@email.com,North,Premium,2022-01-15,45,12500.00
+CUST-102,Jane Smith,jane.smith@email.com,South,Standard,2022-03-20,23,3200.00
+CUST-103,Michael Brown,michael.b@email.com,East,Premium,2021-11-05,67,28900.00
+CUST-104,Emily Davis,emily.d@email.com,West,Standard,2023-02-10,12,1800.00
+CUST-105,Chris Wilson,chris.w@email.com,North,Gold,2021-06-30,89,45600.00
+CUST-106,Sarah Miller,sarah.m@email.com,South,Standard,2023-05-15,8,900.00
+CUST-107,James Moore,james.m@email.com,East,Gold,2022-08-22,56,22100.00
+CUST-108,Lisa Taylor,lisa.t@email.com,West,Premium,2021-12-01,78,34500.00
+CUST-109,Robert Anderson,robert.a@email.com,North,Standard,2023-01-18,15,2100.00
+CUST-110,Mary Jackson,mary.j@email.com,South,Gold,2022-04-14,44,18700.00
+CUST-111,David White,david.w@email.com,East,Standard,2023-03-25,10,1400.00
+CUST-112,Jennifer Harris,jennifer.h@email.com,West,Premium,2021-09-08,62,27800.00
+CUST-113,Thomas Martin,thomas.m@email.com,North,Gold,2022-07-12,38,15600.00
+CUST-114,Jessica Thompson,jessica.t@email.com,South,Standard,2022-11-30,28,4200.00
+CUST-115,Charles Garcia,charles.g@email.com,East,Premium,2021-04-22,95,52300.00
+CUST-116,Susan Martinez,susan.m@email.com,West,Standard,2023-04-05,6,780.00
+CUST-117,Joseph Robinson,joseph.r@email.com,North,Gold,2022-02-17,51,21400.00
+CUST-118,Karen Clark,karen.c@email.com,South,Standard,2023-06-01,4,560.00
+CUST-119,Daniel Lewis,daniel.l@email.com,East,Premium,2021-08-14,73,38900.00
+CUST-120,Nancy Lee,nancy.l@email.com,West,Gold,2022-05-28,47,19800.00
+CUST-121,Paul Walker,paul.w@email.com,North,Standard,2022-10-09,19,2700.00
+CUST-122,Betty Hall,betty.h@email.com,South,Premium,2021-07-16,84,43200.00
+CUST-123,Mark Allen,mark.a@email.com,East,Standard,2023-02-28,11,1500.00
+CUST-124,Sandra Young,sandra.y@email.com,West,Gold,2022-06-03,43,17600.00
+CUST-125,Donald Hernandez,donald.h@email.com,North,Premium,2021-10-20,71,36700.00

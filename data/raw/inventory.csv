@@ -1,0 +1,9 @@
+product_id,product_name,category,sku,unit_cost,unit_price,current_stock,reorder_level,supplier,last_restocked
+P001,Product A,Electronics,SKU-A001,150.00,299.99,245,50,TechSupply Co,2024-04-15
+P002,Product B,Clothing,SKU-B002,20.00,49.99,680,100,FashionWholesale,2024-04-20
+P003,Product C,Electronics,SKU-C003,280.00,599.99,89,30,TechSupply Co,2024-04-10
+P004,Product D,Food,SKU-D004,8.00,19.99,1250,200,FreshFoods Inc,2024-05-01
+P005,Product E,Clothing,SKU-E005,35.00,89.99,420,80,FashionWholesale,2024-04-25
+P006,Product F,Electronics,SKU-F006,95.00,199.99,156,40,TechSupply Co,2024-04-18
+P007,Product G,Food,SKU-G007,5.00,12.99,890,150,FreshFoods Inc,2024-05-02
+P008,Product H,Clothing,SKU-H008,45.00,109.99,310,60,FashionWholesale,2024-04-22
